@@ -1,0 +1,73 @@
+h1
+{
+color: rgb(135, 187, 233);
+font-family: "Cormorant";
+position: relative;
+top:100px;
+left:400px
+
+}
+img {
+    position: absolute;
+    left: 100px;
+}
+#vacc {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 85%;
+    top:250px;
+    text-align: center;
+    left:100px
+  }
+  
+  #vacc td, #vacc th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  #vacc th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:  rgb(135, 187, 233);;
+    color: white;
+  }
+
+@media only screen and (max-width: 700px)
+{
+    h1 {
+        position: absolute;
+        left: 20px;
+        top: 200px;
+        font-size: x-large;
+    }
+    img {
+        position: absolute;
+        left: 80px;
+    }
+    
+   
+    #vacc {
+      position: absolute;
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 85%;
+      top:250px;
+      left:25px;
+      text-align: center;
+    }
+    
+    #vacc td, #vacc th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    #vacc th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color:  rgb(135, 187, 233);;
+      color: white;
+    }
+   
+}
